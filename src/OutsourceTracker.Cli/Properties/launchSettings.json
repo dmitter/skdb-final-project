@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "get Luis": {
+      "commandName": "Project",
+      "commandLineArgs": "get Luis"
+    },
+    "list employee": {
+      "commandName": "Project",
+      "commandLineArgs": "list employee"
+    },
+    "import timesheet.csv": {
+      "commandName": "Project",
+      "commandLineArgs": "import timesheet.csv"
+    },
+    "remove": {
+      "commandName": "Project",
+      "commandLineArgs": "remove Evan"
+    },
+    "report top5longTasks": {
+      "commandName": "Project",
+      "commandLineArgs": "report top5longTasks"
+    },
+    "report top5costTasks": {
+      "commandName": "Project",
+      "commandLineArgs": "report top5costTasks"
+    },
+    "report top5employees": {
+      "commandName": "Project",
+      "commandLineArgs": "report top5employees"
+    }
+  }
+}
