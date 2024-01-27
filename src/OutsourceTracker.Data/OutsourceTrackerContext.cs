@@ -6,13 +6,13 @@ namespace OutsourceTracker.Data;
 
 public class OutsourceTrackerContext(string connectionString) : DbContext
 {
-    public DbSet<Employee> Employees { get; } = null!;
+    public DbSet<Employee> Employees { get; set; } = null!;
 
-    public DbSet<Position> Positions { get; } = null!;
+    public DbSet<Position> Positions { get; set; } = null!;
 
-    public DbSet<Task> Tasks { get; } = null!;
+    public DbSet<Task> Tasks { get; set; } = null!;
 
-    public DbSet<TimeSpent> TimeSpent { get; } = null!;
+    public DbSet<TimeSpent> TimeSpent { get; set; } = null!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
